@@ -15,8 +15,8 @@ and extract them to the root folder of this git.
 	- *.json: Instances in json format
 	- *.lp: Instances in ASP facts
 - src: Folder with solution converter and checker
-- solve_and_check.sh : Script running and validating one instance
-- loesung-validator-0.0.34-20190814.073719-10-cli.jar : solution validator from https://github.com/potassco/train-scheduling-with-hybrid-asp/releases
+- solve_and_check.sh: Script running and validating one instance
+- loesung-validator-0.0.34-20190814.073719-10-cli.jar: solution validator from https://github.com/potassco/train-scheduling-with-hybrid-asp/releases
 
 ## USAGE
 
