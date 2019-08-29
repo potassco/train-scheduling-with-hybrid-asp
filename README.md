@@ -8,6 +8,14 @@
 - Please download instances.tar.gz from https://github.com/potassco/train-scheduling-with-hybrid-asp/releases
 and extract them to the root folder of this git.
 
+If you are using conda, you can install all required packages into a new environment:
+
+- create and activate a new conda environment
+- conda install -c potassco clingo-dl
+- conda install -c conda-forge thriftpy2
+- conda install -c conda-forge openjdk
+- pip install -r requirements.txt
+
 ## CONTENT
 
 - encodings: Folder containing all ASPmDL encodings including optimization and heuristics
@@ -17,6 +25,7 @@ and extract them to the root folder of this git.
 - src: Folder with solution converter and checker
 - solve_and_check.sh: Script running and validating one instance
 - loesung-validator-0.0.34-20190814.073719-10-cli.jar: solution validator from https://github.com/potassco/train-scheduling-with-hybrid-asp/releases
+- requirements.txt: requirements file for pip
 
 ## USAGE
 
